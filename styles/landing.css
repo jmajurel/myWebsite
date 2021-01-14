@@ -1,0 +1,55 @@
+.landing {
+    background-image: url('../assets/images/ave-calvar-5u4L-E4eQWw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.landing .textblock {
+    padding-top: 5%;
+    padding-left: 5%;
+    max-width: 50%;
+}
+
+.landing .textblock h1 {
+    margin-bottom: 10px;
+    margin-right: 0;
+    
+}
+.landing .textblock p {
+    font-size: 5.5rem;
+}
+
+.landing .next {
+    max-width: 35%;
+}
+
+.landing .next .arrow {
+    background-image: url("../assets/icons/Arrow_Bottom.svg");
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+    .landing .next {
+        max-width: none;
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .landing .next {
+        max-width: none;
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+}
+
