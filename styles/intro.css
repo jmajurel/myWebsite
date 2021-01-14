@@ -1,17 +1,22 @@
+
 .intro {
-    display: inline;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 .intro .textblock {
-    display: inline-block;
-    padding: 5rem;
-    max-width: 45%;
+    display: block;
+    float: left;
+    width: 45%;
 }
 
 .intro .textblock h2 {
+    position: relative;
+    z-index: 9;
+    font-size: 18rem;
+    width: 100vw;
     margin-top: 0;
-    font-size: 10rem;
-    width: 100%
+    margin-bottom: 0;
 }
 
 .intro .textblock p {
@@ -19,8 +24,8 @@
 }
 
 .intro .illustration {
-    display: inline-block;
-    margin: 0 auto;
+    display: block;
+    float: left;
 }
 
 .intro .illustration .picture {
@@ -28,16 +33,30 @@
     background-position: right 0px top -0.5px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 600px;
-    height: 600px;
+    width: 60rem;
+    height: 60rem;
     margin: 3rem;
 }
 
 .intro .illustration .blackmirror {
     background-color: black;
-    width: 600px;
-    height: 600px;
+    width: 60rem;
+    height: 60rem;
     position: relative;
     z-index: -1;
     transform: translate(4rem, 4rem);
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .intro .textblock {
+        float: unset;
+        width: none;
+    }
 }
