@@ -1,0 +1,35 @@
+.work {
+    padding: 0;
+    margin: 0;
+}
+
+.work .illustration {
+    background-image: url("../assets/images/matt-artz-4mAcustUNPs-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34%;
+    background-position-y: 66%;
+}
+
+.work .content {
+    padding: 5%;
+    width: 60%;
+    /*margin: 0 auto;*/
+}
+
+.work .content h2 {
+    font-size: 20rem;
+    width: fit-content;
+    transform: rotate(-90deg) translateY(-20rem) translateX(10rem);
+    float: left;
+}
+
+.work .content .work-chapters {
+    max-width: 80%;
+    list-style: none;
+
+}
+.work .content .work-chapters li {
+    font-size: 4rem;
+}
