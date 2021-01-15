@@ -1,4 +1,7 @@
 .page {
+    box-sizing: border-box;
     height: 100vh;
+    padding: 5%;
+    max-height: 100vh;
 }
 
