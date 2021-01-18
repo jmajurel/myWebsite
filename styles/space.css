@@ -1,0 +1,78 @@
+.space h2 {
+    font-size: 10rem;
+    text-align: end;
+}
+
+.space .illustration {
+    width: 40%;
+    height: 100%;
+    background-image: url(../assets/images/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 329%;
+}
+
+.space .content {
+    width: 40%;
+    position: absolute;
+    padding-right: 5%;
+    right: 0;
+}
+
+.space .content h3 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.space .content p {
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.space .button {
+    position: absolute;
+    top: 415%;
+    right: 5%;
+}
+
+@media (max-width: 575.98px) { 
+    .space h2 {
+        transform: rotate(271deg) translateX(-7rem);
+        position: absolute;
+        left: 0;
+        margin: 0;
+        font-size: 4rem;
+    }
+    .space .content {
+        width: 100%;
+        padding: 5%;
+        position: unset;
+        padding: 0;
+    }
+
+    .space .content h3 {
+        font-size: 8rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .space .content p {
+        margin-top: 6rem;
+    }
+
+    .space .illustration {
+        width: 90%;
+        height: 60%;
+        top: 333%;
+    }
+    .space .button {
+        position: absolute;
+        right: 5%;
+        width: 75%;
+        top: 394%;
+    }
+}
