@@ -1,17 +1,18 @@
 .space h2 {
     font-size: 10rem;
     text-align: end;
+    margin-top: 0;
 }
 
 .space .illustration {
     width: 40%;
-    height: 100%;
+    height: 90%;
     background-image: url(../assets/images/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    top: 329%;
+    top: 320%;
 }
 
 .space .content {
@@ -35,8 +36,8 @@
 
 .space .button {
     position: absolute;
-    top: 415%;
     right: 5%;
+    top: 400%;
 }
 
 @media (max-width: 575.98px) { 

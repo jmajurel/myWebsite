@@ -1,0 +1,83 @@
+.health h2 {
+    font-size: 21rem;
+    margin-top: 0;
+    padding-left: 10%;
+}
+
+.health .content {
+    width: 40%;
+    position: absolute;
+    padding-left: 5%;
+    left: 0;
+    top: 450%;
+}
+
+.health .content h3 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.health .content p {
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.health .illustration {
+    width: 40%;
+    height: 90%;
+    background-image: url(../assets/images/zhen-hu-Xruf17OrkwM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 430%;
+    right: 5%;
+    z-index: -1;
+}
+
+.health .button {
+    position: absolute;
+    left: 5%;
+    top: 510%;
+}
+
+@media (max-width: 575.98px) { 
+    .health h2 {
+        transform: rotate(271deg) translateX(-7rem) translateY(-5rem);
+        position: absolute;
+        left: 0;
+        margin: 0;
+        font-size: 4rem;
+    }
+    .health .content {
+        width: 100%;
+        padding: 5%;
+        position: unset;
+        padding: 0;
+    }
+
+    .health .content h3 {
+        font-size: 8rem;
+        text-align: left;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .health .content p {
+        margin-top: 6rem;
+    }
+
+    .health .illustration {
+        width: 90%;
+        height: 50%;
+        top: 442%;
+    }
+    .health .button {
+        position: absolute;
+        right: 5%;
+        width: 75%;
+        top: 493%;
+    }
+}
