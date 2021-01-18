@@ -12,10 +12,11 @@
 .landing .textblock h1 {
     margin-bottom: 10px;
     margin-right: 0;
-    
+    font-size: 9rem;
 }
+
 .landing .textblock p {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
 }
 
 .landing .next {
