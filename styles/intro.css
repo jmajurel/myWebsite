@@ -62,7 +62,7 @@
         max-width: 89%;
     }
     .intro .textblock p {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .intro h2 {
         font-size: 13rem;
@@ -87,11 +87,36 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
+    .intro .textblock {
+        float: unset;
+        width: unset;
+        position: absolute;
+        max-width: 89%;
+        bottom: 0;
+    }
     .intro .textblock p {
         font-size: 2.5rem;
     }
     .intro h2 {
-        font-size: 16rem;
+        font-size: 13rem;
+        text-align: center;
+    }
+    .intro {
+        position: relative;
+    }
+    .intro .illustration {
+        top: 0;
+        width: 100%;
+    }
+    .intro .illustration .picture {
+        margin: 0 auto;
+        width: 45rem;
+        height: 45rem;
+    }
+    .intro .illustration .blackmirror {
+        width: 45rem;
+        height: 45rem;
+        transform: translate(-11px, 8px);
     }
 }
 
@@ -104,39 +129,3 @@
         font-size: 16rem;
     } 
 }
-
-
-/*@media (min-width: 768px) and (max-width: 991.98px) { 
-    .intro .textblock {
-        float: unset;
-        width: unset;
-        position: absolute;
-        top: 90rem;
-        max-width: 89%;
-    }
-
-    .intro h2 {
-        font-size: 13rem;
-        text-align: center;
-    }
-
-    .intro {
-        position: relative;
-    }
-
-    .intro .illustration {
-        position: initial;
-        top: 0;
-        float:none;
-    }
-
-    .intro .illustration .blackmirror {
-        width: 65rem;
-        height: 65rem;
-        transform: translate(-19px, 8px);
-    }
-    .intro .illustration .picture {
-        display: block;
-        margin: 0 auto;
-    }
-}*/
