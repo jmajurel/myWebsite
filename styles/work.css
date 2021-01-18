@@ -18,10 +18,10 @@
     /*margin: 0 auto;*/
 }
 
-.work .content h2 {
+.work h2 {
     font-size: 20rem;
     width: fit-content;
-    transform: rotate(-90deg) translateY(-20rem) translateX(10rem);
+    transform: rotate(-90deg) translateY(-20rem) translateX(-4rem);
     float: left;
 }
 
