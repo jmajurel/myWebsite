@@ -21,9 +21,9 @@
 
 .intro .illustration {
     display: block;
-    float: left;
-    position: relative;
-    top: -21rem;
+    position: absolute;
+    top: 105%;
+    right: 10%;
     width: 40%;
 }
 
@@ -63,6 +63,7 @@
     }
     .intro .textblock p {
         font-size: 3rem;
+        text-align: justify;
     }
     .intro h2 {
         font-size: 13rem;
@@ -72,8 +73,9 @@
         position: relative;
     }
     .intro .illustration {
-        top: 0;
+        top: 12%;
         width: 100%;
+        right: 0;
     }
     .intro .illustration .picture {
         margin: 0 auto;

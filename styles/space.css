@@ -73,7 +73,8 @@
     .space .button {
         position: absolute;
         right: 5%;
-        width: 75%;
+        left: 5%;
+        width: unset;
         top: 394%;
     }
 }

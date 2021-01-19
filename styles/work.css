@@ -24,7 +24,7 @@
     transform: rotate(-90deg);
     position: absolute;
     top: 242%;
-    left: -10%;
+    left: -5%;
     float: left;
 }
 
@@ -69,7 +69,7 @@
         right: 0;
     }
     .work h2 {
-        top: 204%;
+        top: 200%;
         line-height: 100%;
         font-size: 25rem;
         width: 100%;
@@ -83,7 +83,7 @@
         height: 100%;
         align-content: flex-start;
         top: 221%;
-        left: 0%
+        left: 5%;
     }
     .work .work-chapters li {
         height: 14vw;

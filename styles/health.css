@@ -77,7 +77,7 @@
     .health .button {
         position: absolute;
         right: 5%;
-        width: 75%;
+        width: unset;
         top: 493%;
     }
 }
