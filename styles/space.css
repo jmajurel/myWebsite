@@ -12,7 +12,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    top: 320%;
+    top: 310%;
 }
 
 .space .content {
@@ -37,7 +37,7 @@
 .space .button {
     position: absolute;
     right: 5%;
-    top: 400%;
+    top: 385%;
 }
 
 @media (max-width: 575.98px) { 

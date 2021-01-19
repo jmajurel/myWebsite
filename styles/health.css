@@ -2,6 +2,7 @@
     font-size: 21rem;
     margin-top: 0;
     padding-left: 10%;
+    line-height: 100%;
 }
 
 .health .content {
@@ -9,7 +10,7 @@
     position: absolute;
     padding-left: 5%;
     left: 0;
-    top: 450%;
+    top: 440%;
 }
 
 .health .content h3 {
@@ -32,15 +33,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    top: 430%;
     right: 5%;
     z-index: -1;
+    top: 410%;
 }
 
 .health .button {
     position: absolute;
     left: 5%;
-    top: 510%;
+    top: 485%;
 }
 
 @media (max-width: 575.98px) { 

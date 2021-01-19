@@ -26,6 +26,7 @@
     top: 242%;
     left: -5%;
     float: left;
+    line-height: 100%;
 }
 
 .work .work-chapters {
@@ -91,5 +92,21 @@
 
     .work .work-chapters li .underline {
         width: 30vw;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .work .illustration {
+        height: 20%;
+    }
+    .work h2 {
+        top: 230%;
+        left: -10%;
+        margin: 0;
+    }
+    .work .work-chapters {
+        width: 75%;
+        left: 25%;
+        top: 224%;
     }
 }
