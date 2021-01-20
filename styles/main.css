@@ -1,7 +1,6 @@
 .page {
     box-sizing: border-box;
     height: 100vh;
-    height: -webkit-fill-available;
     padding: 5%;
     max-height: 100vh;
     max-height: -webkit-fill-available;
