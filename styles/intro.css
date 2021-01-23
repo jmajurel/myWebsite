@@ -8,15 +8,15 @@
 .intro h2 {
     position: relative;
     z-index: 9;
-    font-size: 18rem;
-    width: 100vw;
+    font-size: calc(1.3rem + 11vw);
+    width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     max-width: 100%;
 }
 
 .intro .textblock p {
-    font-size: 2.8rem;
+    font-size: calc(1.3rem + 0.5vw);
 }
 
 .intro .illustration {
@@ -25,107 +25,50 @@
     top: 105%;
     right: 10%;
     width: 40%;
-}
-
-.intro .illustration .picture {
     background-image: url("../assets/images/mypicture.jpg");
-    background-position: right 0px top -0.5px;
+    background-position: right 50% top 20%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 60rem;
-    height: 60rem;
-    margin: 3rem;
 }
 
-.intro .illustration .blackmirror {
-    background-color: black;
-    width: 60rem;
-    height: 60rem;
+.intro .illustration::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    transform: translate(4%, 4%);
     position: relative;
     z-index: -1;
-    transform: translate(4rem, 4rem);
+    background-color: black;
 }
 
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+/* Extra small devices (portrait phones, less than 576px), Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) { 
     .intro .textblock {
         float: unset;
         width: unset;
-        position: absolute;
-        top: 90rem;
-        max-width: 89%;
+        margin-top: 10%;
     }
     .intro .textblock p {
-        font-size: 3rem;
+        font-size: calc(0.8rem + 0.7vw);
         text-align: justify;
     }
     .intro h2 {
-        font-size: 13rem;
+        font-size: calc(1.3rem + 10vw);
         text-align: center;
     }
     .intro {
         position: relative;
     }
     .intro .illustration {
-        top: 12%;
-        width: 100%;
-        right: 0;
-    }
-    .intro .illustration .picture {
+        height: 50%;
+        width: 80%;
         margin: 0 auto;
-    }
-    .intro .illustration .blackmirror {
-        width: 65rem;
-        height: 65rem;
-        transform: translate(-11px, 8px);
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    .intro .textblock {
-        float: unset;
-        width: unset;
-        position: absolute;
-        max-width: 89%;
-        bottom: 0;
-    }
-    .intro .textblock p {
-        font-size: 3rem;
-    }
-    .intro h2 {
-        font-size: 13rem;
-        text-align: center;
-    }
-    .intro {
-        position: relative;
-    }
-    .intro .illustration {
-        top: 0;
-        width: 100%;
         position: unset;
     }
-    .intro .illustration .picture {
-        margin: 0 auto;
-        /*width: 45rem;
-        height: 45rem;*/
-        width: 80%;
-        height: 55vh;
+    .intro .illustration::after {
+        width: 110%;
+        height: 100%;
+        padding-bottom: unset;
+        transform: translate(-5%, 5%);
     }
-    .intro .illustration .blackmirror {
-        width: 80%;
-        height: 55vh;
-        transform: translate(-11px, 8px);
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    .intro .textblock p {
-        font-size: 2.5rem;
-    }
-    .intro h2 {
-        font-size: 16rem;
-    } 
 }

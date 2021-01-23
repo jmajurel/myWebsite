@@ -1,41 +1,34 @@
 .health h2 {
-    font-size: 21rem;
+    font-size: calc(1.3rem + 15vw);
     margin-top: 0;
-    padding-left: 10%;
+    margin-bottom: 2%;
     line-height: 100%;
 }
 
-.health .content {
+.health .illustration {
     width: 40%;
-    position: absolute;
-    padding-left: 5%;
-    left: 0;
-    top: 440%;
+    height: 100%;
+    background-image: url(../assets/images/zhen-hu-Xruf17OrkwM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.health .content {
+    width: 30%;
 }
 
 .health .content h3 {
-    font-size: 4rem;
+    font-size: calc(1.3rem + 1.5vw);
     letter-spacing: 5px;
     margin: 10px;
     margin-left: 0;
 }
 
 .health .content p {
-    font-size: 2.5rem;
+    font-size: calc(1.3rem + 0.3vw);
     text-align: justify;
-}
-
-.health .illustration {
-    width: 40%;
-    height: 90%;
-    background-image: url(../assets/images/zhen-hu-Xruf17OrkwM-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 5%;
-    z-index: -1;
-    top: 410%;
 }
 
 .health .button {
@@ -45,6 +38,52 @@
 }
 
 @media (max-width: 575.98px) { 
+    .health {
+        display: table;
+    }
+    .health h2 {
+        position: absolute;
+        top: 310%;
+        left: 7%;
+        transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+        line-height: 100%;
+        margin: 0;
+        font-size: calc(1.2rem + 1vw);
+    }
+    .health .content {
+        display: table-header-group;
+        width: 100%;
+        padding: 5%;
+        position: unset;
+        padding: 0;
+    }
+
+    .health .content h3 {
+        margin-top: 0;
+        font-size: calc(1.2rem + 5vw);
+        width: 100%;
+        text-align: center;
+    }
+
+    .health .content p {
+        margin-top: 10%;
+        font-size: calc(0.8rem + 0.7vw);
+    }
+
+    .health .illustration {
+        display: table-footer-group;
+        border: 0.1px solid transparent;
+        margin: 0 auto;
+        height: 80%;
+        width: 100%;
+    }
+    .health .button {
+        display: block;
+        margin: 0 auto;
+        position: unset;
+    }
+}
+/*@media (max-width: 575.98px) { 
     .health h2 {
         transform: rotate(271deg) translateX(-7rem) translateY(-5rem);
         position: absolute;
@@ -81,4 +120,4 @@
         width: unset;
         top: 493%;
     }
-}
+}*/

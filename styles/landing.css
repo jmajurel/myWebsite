@@ -12,20 +12,22 @@
 .landing .textblock h1 {
     margin-bottom: 10px;
     margin-right: 0;
-    font-size: 9rem;
+    font-size: calc(1.3rem + 6vw);
 }
 
 .landing .textblock p {
-    font-size: 4.5rem;
+    font-size: calc(1.3rem + 1.5vw);
 }
 
 .landing .next {
-    max-width: 35%;
+    width: 40%;
 }
 
 .landing .next .arrow {
     background-image: url("../assets/icons/Arrow_Bottom.svg");
+    background-repeat: no-repeat;
     width: 100px;
+    max-width: 100%;
     height: 100px;
     margin: 0 auto;
     cursor: pointer;

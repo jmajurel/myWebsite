@@ -1,18 +1,19 @@
 .space h2 {
-    font-size: 10rem;
+    font-size: calc(1.3rem + 10vw);
     text-align: end;
     margin-top: 0;
+    margin-bottom: 2%;
+    line-height: 100%;
 }
 
 .space .illustration {
     width: 40%;
-    height: 90%;
+    height: 100%;
     background-image: url(../assets/images/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 310%;
+    float: left;
 }
 
 .space .content {
@@ -23,14 +24,14 @@
 }
 
 .space .content h3 {
-    font-size: 4rem;
+    font-size: calc(1.3rem + 2.5vw);
     letter-spacing: 5px;
     margin: 10px;
     margin-left: 0;
 }
 
 .space .content p {
-    font-size: 2.5rem;
+    font-size: calc(1.3rem + 0.3vw);
     text-align: justify;
 }
 
@@ -41,14 +42,20 @@
 }
 
 @media (max-width: 575.98px) { 
+    .space {
+        display: table;
+    }
     .space h2 {
-        transform: rotate(271deg) translateX(-7rem);
         position: absolute;
-        left: 0;
+        top: 310%;
+        left: 7%;
+        transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+        line-height: 100%;
         margin: 0;
-        font-size: 4rem;
+        font-size: calc(1.2rem + 1vw);
     }
     .space .content {
+        display: table-header-group;
         width: 100%;
         padding: 5%;
         position: unset;
@@ -56,25 +63,27 @@
     }
 
     .space .content h3 {
-        font-size: 8rem;
+        margin-top: 0;
+        font-size: calc(1.2rem + 5vw);
         width: 100%;
         text-align: center;
     }
 
     .space .content p {
-        margin-top: 6rem;
+        margin-top: 10%;
+        font-size: calc(0.8rem + 0.7vw);
     }
 
     .space .illustration {
-        width: 90%;
-        height: 60%;
-        top: 333%;
+        display: table-footer-group;
+        border: 0.1px solid transparent;
+        margin: 0 auto;
+        height: 80%;
+        width: 100%;
     }
     .space .button {
-        position: absolute;
-        right: 5%;
-        left: 5%;
-        width: unset;
-        top: 394%;
+        display: block;
+        margin: 0 auto;
+        position: unset;
     }
 }

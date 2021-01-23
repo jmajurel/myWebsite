@@ -8,46 +8,45 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40%;
+    height: 35%;
     background-position-y: 10%;
 }
 
 .work .content {
     padding: 5%;
     width: 60%;
-    /*margin: 0 auto;*/
 }
 
 .work h2 {
-    font-size: 16rem;
-    width: fit-content;
-    transform: rotate(-90deg);
-    position: absolute;
-    top: 242%;
-    left: -5%;
-    float: left;
+    display: block;
+    font-size: calc(1.3rem + 11vw);
     line-height: 100%;
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    top: 270%;
+    left: 10%;
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 
 .work .work-chapters {
-    width: 80%;
+    width: 85%;
     padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 250%;
-    left: 10%;
+    margin: 0 auto;
+    margin-left: 15%;
     list-style: none;
     display: flex;
     flex-direction: column;
     align-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    height: 45vh;
+    height: 65%;
 }
 
 .work .work-chapters li {
-    font-size: 4rem;
+    font-size: calc(1.3rem + 1.4vw);
     font-weight: 500;
-    height: 15vh;
+    height: 30%;
 }
 
 .work .work-chapters li .underline {
@@ -60,19 +59,20 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .work .illustration {
-        transform: rotate(90deg);
-        height: 50vw;
-        width: 100vh;
         position: absolute;
-        top: 240%;
-        left: -33%;
         z-index: -1;
-        right: 0;
+        top: 300%;
+        left: 50%;
+        transform: rotate(-90deg);
+        transform-origin: top left;
+        width: 100vh;
+        height: 50vw;
     }
+
     .work h2 {
-        top: 200%;
+        position: unset;
         line-height: 100%;
-        font-size: 25rem;
+        font-size: calc(1.3rem + 20vw);
         width: 100%;
         margin-top: 0;
         transform: none;
@@ -81,21 +81,22 @@
     }
     .work .work-chapters {
         max-width: 100%;
-        height: 100%;
         align-content: flex-start;
         top: 221%;
         left: 5%;
+        height: 84%;
+        margin-left: 5%;
     }
     .work .work-chapters li {
-        height: 14vw;
+        height: 10%;
     }
 
     .work .work-chapters li .underline {
-        width: 30vw;
+        width: 80%;
     }
 }
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
+/*@media (min-width: 768px) and (max-width: 991.98px) { 
     .work .illustration {
         height: 20%;
     }
@@ -109,4 +110,4 @@
         left: 25%;
         top: 224%;
     }
-}
+}*/
