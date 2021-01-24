@@ -1,5 +1,5 @@
 .health h2 {
-    font-size: calc(1.3rem + 15vw);
+    font-size: calc(1.3rem + 13vw);
     margin-top: 0;
     margin-bottom: 2%;
     line-height: 100%;
@@ -16,18 +16,18 @@
 }
 
 .health .content {
-    width: 30%;
+    width: 45%;
 }
 
 .health .content h3 {
-    font-size: calc(1.3rem + 1.5vw);
+    font-size: calc(1.3rem + 0.2vw);
     letter-spacing: 5px;
     margin: 10px;
     margin-left: 0;
 }
 
 .health .content p {
-    font-size: calc(1.3rem + 0.3vw);
+    font-size: calc(1.1rem + 0.3vw);
     text-align: justify;
 }
 
@@ -43,7 +43,7 @@
     }
     .health h2 {
         position: absolute;
-        top: 310%;
+        top: 410%;
         left: 7%;
         transform: translateX(-50%) translateY(-50%) rotate(-90deg);
         line-height: 100%;
