@@ -65,7 +65,7 @@
         left: 50%;
         transform: rotate(-90deg);
         transform-origin: top left;
-        width: 100vh;
+        width: calc(100 * var(--vh));
         height: 50vw;
     }
 
