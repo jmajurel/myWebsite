@@ -1,0 +1,10 @@
+.contact {
+    background-image: url("../assets/images/hari-nandakumar-8VEetr-egjQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.contact h2 {
+    font-size: calc(1.3rem + 0.2vw);
+}
