@@ -7,7 +7,7 @@
     min-width: 98%;
 }
 
-.button {
+.button,button {
     background-color: black;
     background-clip: padding-box;
     padding: 20px 30px;
