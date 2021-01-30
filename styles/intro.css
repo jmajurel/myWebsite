@@ -3,6 +3,7 @@
     display: block;
     float: left;
     width: 45%;
+    opacity: 0;
 }
 
 .intro h2 {
@@ -13,7 +14,9 @@
     margin-top: 0;
     margin-bottom: 0;
     max-width: 100%;
+    opacity: 0;
 }
+
 
 .intro .textblock p {
     font-size: calc(1.3rem + 0.5vw);
@@ -39,6 +42,18 @@
     position: relative;
     z-index: -1;
     background-color: black;
+}
+
+@keyframes popup-anim {
+    
+    from {
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px), Medium devices (tablets, 768px and up) */
