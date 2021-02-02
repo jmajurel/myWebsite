@@ -1,3 +1,9 @@
+.wrapper {
+    height: calc(100 * var(--vh));
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 
 .page {
     box-sizing: border-box;
@@ -7,6 +13,7 @@
     max-width: 100%;
     min-width: 98%;
 }
+
 .button,button {
     background-color: black;
     background-clip: padding-box;

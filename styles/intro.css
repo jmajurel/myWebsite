@@ -1,4 +1,6 @@
-
+.intro {
+    background-color: white;
+}
 .intro .textblock {
     display: block;
     float: left;

@@ -1,8 +1,19 @@
 .landing {
+    height: 100%;
+}
+.landing::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
     background-image: url('../assets/images/ave-calvar-5u4L-E4eQWw-unsplash.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transform: translateZ(-1px) scale(2);
 }
 
 .landing .textblock {
