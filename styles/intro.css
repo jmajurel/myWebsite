@@ -1,5 +1,9 @@
 .intro {
-    background-color: white;
+    background: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .intro .textblock {
     display: block;
@@ -27,7 +31,7 @@
 .intro .illustration {
     display: block;
     position: absolute;
-    top: 105%;
+    top: 5%;
     right: 10%;
     width: 40%;
     background-image: url("../assets/images/mypicture.jpg");
