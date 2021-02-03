@@ -25,3 +25,41 @@
     letter-spacing: 3px;
     text-align: center;
 }
+
+@keyframes popup-anim {
+    
+    from {
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-right,.slide-left {
+    opacity: 0;
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(5rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(-5rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

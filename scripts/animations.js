@@ -8,22 +8,29 @@ var options = {
 function handleInViewPort(entries) {
     if(!entries || entries.length <= 0) return;
     var currEntry;
+    var animationType;
     for(var i = 0; i < entries.length; i++){
         currEntry = entries[i];
         if(currEntry.intersectionRatio > thresholdValue){
-            console.log("in viewport");
-            currEntry.target.style.animation = 'popup-anim 1s forwards ease-out'
+            animationType = currEntry.target.getAttribute("anim");
+            currEntry.target.style.animation = animationType + ' 1s forwards ease-out'
         } else {
             currEntry.target.style.animation = 'none';
         }
     }
 }
 
-var observer = new IntersectionObserver(handleInViewPort, options);
+var windowWidth = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
 
-var elements = document.getElementsByClassName("popup-onscroll");
+var isMobile = windowWidth < 991.98;
 
-for(var i = 0; i <elements.length; i++)
-    observer.observe(elements[i]);
+if(!isMobile){
+    var observer = new IntersectionObserver(handleInViewPort, options);
 
-
+    var animatedElements = document.getElementsByClassName("animated");
+    
+    for(var i = 0; i <animatedElements.length; i++)
+        observer.observe(animatedElements[i]);
+}
