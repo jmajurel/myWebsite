@@ -1,5 +1,6 @@
 .wrapper {
     height: calc(100 * var(--vh));
+    -webkit-perspective: 1px;
     perspective: 1px;
     overflow-x: hidden;
     overflow-y: scroll;
