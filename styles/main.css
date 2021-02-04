@@ -3,6 +3,7 @@
     perspective: 1px;
     overflow-x: hidden;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .page {
