@@ -9,7 +9,7 @@
 .space .illustration {
     width: 40%;
     height: 100%;
-    background-image: url(../assets/images/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
+    background-image: url(../assets/images/tinified/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 .space .button {
     position: absolute;
     right: 5%;
-    top: 385%;
+    top: 380%;
 }
 
 @media (max-width: 575.98px) { 

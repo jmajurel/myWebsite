@@ -8,7 +8,7 @@
 .health .illustration {
     width: 40%;
     height: 100%;
-    background-image: url(../assets/images/zhen-hu-Xruf17OrkwM-unsplash.jpg);
+    background-image: url(../assets/images/tinified/zhen-hu-Xruf17OrkwM-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 .health .button {
     position: absolute;
     left: 5%;
-    top: 485%;
+    top: 480%;
 }
 
 @media (max-width: 575.98px) { 
