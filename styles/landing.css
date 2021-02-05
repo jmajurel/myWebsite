@@ -89,18 +89,19 @@
     }
     .landing .textblock {
         margin: 0;
-        -webkit-transform:  translateZ(-1px);
-        transform:  translateZ(-1px);
+        -webkit-transform:  translateZ(-90px);
+        transform:  translateZ(-90px);
+        z-index: 4;
     }
     .landing::after {
-        -webkit-transform:  translateZ(-2px);
-        transform: translateZ(-2px);
+        -webkit-transform:  translateZ(-300px);
+        transform: translateZ(-300px);
     }
     .landing .next {
         left: unset;
         bottom: 20%;
-        -webkit-transform: translateZ(-1px);
-        transform: translateZ(-1px);
+        -webkit-transform: translateZ(-90px);
+        transform: translateZ(-90px);
     }
 }
 
