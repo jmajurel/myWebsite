@@ -7,7 +7,7 @@ body,html {
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: auto;
     -webkit-perspective: 1px;
     perspective: 1px;
 }
