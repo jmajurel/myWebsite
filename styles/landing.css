@@ -1,6 +1,6 @@
 .landing {
     position: relative;
-    height: 100%;
+    height: calc(100 * var(--vh));
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
