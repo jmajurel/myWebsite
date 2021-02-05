@@ -1,9 +1,8 @@
 .landing {
     position: relative;
     height: 100%;
-    -webkit-transform-style: flat;
-    transform-style: flat;
-    overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .landing::after {
