@@ -18,7 +18,8 @@
     background-size: cover;
     background-position: center;
     z-index: -1;
-    transform: translate3d(0, 0, -2px) scale(1);
+    -webkit-transform:  translateZ(-2px) scale(1);
+    transform: translateZ(-2px) scale(2);
 }
 
 .landing .textblock {
