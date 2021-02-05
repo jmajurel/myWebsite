@@ -96,5 +96,9 @@
         -webkit-transform:  translateZ(-2px);
         transform: translateZ(-2px);
     }
+    .landing .next {
+        -webkit-transform: translateZ(-1px);
+        transform: translateZ(-1px);
+    }
 }
 
