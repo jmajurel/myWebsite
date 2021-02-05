@@ -5,7 +5,7 @@
     -webkit-perspective: 1px;
     perspective: 1px;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
 
