@@ -4,7 +4,6 @@
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     overflow: hidden;
-    z-index: 5;
 }
 
 .landing::after {
@@ -18,9 +17,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    z-index: -1;
     -webkit-transform:  translateZ(-2px) scale(3);
     transform: translateZ(-2px) scale(3);
+    z-index: 3;
 }
 
 .landing .textblock {
@@ -54,6 +53,7 @@
     width: 40%;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
+    z-index: 4;
 }
 
 .landing .next .arrow {
