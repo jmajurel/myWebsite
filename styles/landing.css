@@ -5,8 +5,7 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    position: relative;
-    height: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 .landing .textblock {
