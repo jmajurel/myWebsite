@@ -22,11 +22,11 @@
 }
 
 .landing .textblock h1 {
-    -webkit-transform: translate3d(0, 0, -1px) scale(2);
-    transform: translate3d(0, 0, -1px) scale(2);
     margin-bottom: 10px;
     margin-right: 0;
     font-size: calc(1.3rem + 6vw);
+    -webkit-transform: translate3d(0, 0, -1px) scale(2);
+    transform: translate3d(0, 0, -1px) scale(2);
 }
 
 .landing .textblock p {
