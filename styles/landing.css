@@ -97,6 +97,8 @@
         transform: translateZ(-2px);
     }
     .landing .next {
+        left: unset;
+        bottom: 20%;
         -webkit-transform: translateZ(-1px);
         transform: translateZ(-1px);
     }
