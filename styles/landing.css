@@ -4,6 +4,7 @@
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     overflow: hidden;
+    z-index: 5;
 }
 
 .landing::after {
@@ -23,7 +24,7 @@
 }
 
 .landing .textblock {
-    position:absolute;
+    position: absolute;
     top: 20%;
     left: 0;
     right: 0;
@@ -33,7 +34,7 @@
     max-width: 50%;
     -webkit-transform:  translateZ(-1px) scale(2);
     transform:  translateZ(-1px) scale(2);
-    z-index: 0;
+    z-index: 4;
 }
 
 .landing .textblock h1 {
