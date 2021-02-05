@@ -18,7 +18,7 @@
     background-size: cover;
     background-position: center;
     z-index: -1;
-    -webkit-transform:  translateZ(-2px) scale(0);
+    -webkit-transform:  translateZ(-2px) scale(0.5);
     transform: translateZ(-2px) scale(2);
 }
 
@@ -31,7 +31,7 @@
     margin-top: -10%;
     margin-left: -20%;
     max-width: 50%;
-    -webkit-transform:  translateZ(-1px) scale(0);
+    -webkit-transform:  translateZ(-1px) scale(0.5);
     transform:  translateZ(-1px) scale(2);
     z-index: 0;
 }
