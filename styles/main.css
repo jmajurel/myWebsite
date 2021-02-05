@@ -1,11 +1,15 @@
+body,html {
+    overflow: hidden;
+}
+
 .wrapper {
     height: calc(100 * var(--vh));
     width: 100%;
-    -webkit-perspective: 1px;
-    perspective: 1px;
     overflow-x: hidden;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    /*-webkit-overflow-scrolling: touch;*/
+    -webkit-perspective: 1px;
+    perspective: 1px;
 }
 
 .page {
