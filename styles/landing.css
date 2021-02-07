@@ -15,6 +15,7 @@
     left: 0;
     bottom: 0;
     background-image: url("../assets/images/tinified/background.jpg");
+    background-size: cover;
     z-index: -1;
     -webkit-transform:  translateZ(-3px) scale(4);
     transform: translateZ(-3px) scale(4);
