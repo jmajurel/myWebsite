@@ -3,6 +3,21 @@
     height: calc(100 * var(--vh));
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+.landing::before{
+    width: 100vw;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url("../assets/images/tinified/background.jpg");
+    z-index: -1;
+    -webkit-transform:  translateZ(-3px) scale(4);
+    transform: translateZ(-3px) scale(4);
 }
 
 .landing::after {
@@ -12,13 +27,14 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../assets/images/tinified/ave-calvar-5u4L-E4eQWw-unsplash.jpg);
+    /* background-image: url(../assets/images/tinified/ave-calvar-5u4L-E4eQWw-unsplash.jpg); **/
+    background-image: url("../assets/images/tinified/hand.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    -webkit-transform:  translateZ(-2px) scale(3);
-    transform: translateZ(-2px) scale(3);
-    z-index: 3;
+    /*-webkit-transform:  translateZ(-2px) scale(3);
+    transform: translateZ(-2px) scale(3);*/
+    z-index: 5;
 }
 
 .landing .textblock {
@@ -29,7 +45,7 @@
     bottom: 0;
     margin-top: -10%;
     margin-left: -20%;
-    max-width: 50%;
+    max-width: 45%;
     -webkit-transform:  translateZ(-1px) scale(2);
     transform:  translateZ(-1px) scale(2);
     z-index: 4;
@@ -47,11 +63,11 @@
 
 .landing .next {
     position: absolute;
-    left: -25%;
-    bottom: -20%;
+    left: -60%;
+    bottom: -40%;
     width: 40%;
-    -webkit-transform: translateZ(-1px) scale(2);
-    transform: translateZ(-1px) scale(2);
+    -webkit-transform: translateZ(-2px) scale(3);
+    transform: translateZ(-2px) scale(3);
     z-index: 4;
 }
 
@@ -66,28 +82,30 @@
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 360px) {
     /* Styles */
     .landing .next {
         max-width: none;
         position: absolute;
         width: 100%;
-        bottom: -30%;
+        bottom: -70%;
     }
-
+    .landing .textblock {
+        margin-top: -35%;
+    }
 }
 
-
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) { 
     .landing .next {
         max-width: none;
         position: absolute;
         width: 100%;
-        bottom: -30%;
+        bottom: -70%;
         left: 0;
     }
-    .landing .textblock {
+    /*.landing .textblock {
         margin: 0;
         -webkit-transform:  translateZ(-90px);
         transform:  translateZ(-90px);
@@ -102,6 +120,6 @@
         bottom: 20%;
         -webkit-transform: translateZ(-90px);
         transform: translateZ(-90px);
-    }
+    }*/
 }
 
