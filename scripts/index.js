@@ -1,5 +1,5 @@
 var NB_OF_PAGE = 5; 
-var EMAIL_SERVICE_URL = "https://localhost:8080/email";
+var EMAIL_SERVICE_URL = "https://mymailer-api.herokuapp.com/";
 
 var nextArrow = document.getElementById("next-arrow");
 
@@ -17,6 +17,9 @@ contactFrom.addEventListener("submit", function(evt) {
     var email = document.getElementById("email");
     var message = document.getElementById("message");
 
-    var body = encodeURI('email=' + email.value + '&message=' + message.value );
-    ajaxCall(EMAIL_SERVICE_URL, "POST", "application/x-www-form-urlencoded", body);
+    var body = {
+        from : email.value,
+        message: message.value
+    };
+    ajaxCall(EMAIL_SERVICE_URL, "POST", "application/json", JSON.stringify(body));
 });

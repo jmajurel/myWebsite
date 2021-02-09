@@ -54,6 +54,7 @@
 .contact form #email {
     margin-left: 2%;
     width: 65%;
+    outline: none;
 }
 
 .contact form button[type="submit"] {
