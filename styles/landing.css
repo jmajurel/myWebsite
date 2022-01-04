@@ -1,37 +1,12 @@
 .landing {
-    position: relative;
-    height: 100%;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.landing::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url(../assets/images/tinified/ave-calvar-5u4L-E4eQWw-unsplash.jpg);
+    background-image: url('../assets/images/ave-calvar-5u4L-E4eQWw-unsplash.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    z-index: -1;
-    transform: translate3d(0, 0, -2px) scale(3);
+    background-size: cover;
 }
 
 .landing .textblock {
-    position:absolute;
-    top: 20%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin-top: -10%;
-    margin-left: -20%;
     max-width: 50%;
-    -webkit-transform:  translateZ(-1px) scale(2);
-    transform:  translateZ(-1px) scale(2);
-    z-index: 0;
 }
 
 .landing .textblock h1 {
@@ -45,12 +20,7 @@
 }
 
 .landing .next {
-    position: absolute;
-    left: -25%;
-    bottom: -20%;
     width: 40%;
-    -webkit-transform: translateZ(-1px) scale(2);
-    transform: translateZ(-1px) scale(2);
 }
 
 .landing .next .arrow {
@@ -70,7 +40,7 @@
         max-width: none;
         position: absolute;
         width: 100%;
-        bottom: -30%;
+        bottom: 10px;
     }
 }
 
@@ -81,7 +51,7 @@
         max-width: none;
         position: absolute;
         width: 100%;
-        bottom: -30%;
+        bottom: 10px;
         left: 0;
     }
 }

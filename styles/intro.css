@@ -1,10 +1,4 @@
-.intro {
-    background: white;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
+
 .intro .textblock {
     display: block;
     float: left;
@@ -28,10 +22,10 @@
 .intro .illustration {
     display: block;
     position: absolute;
-    top: 5%;
+    top: 105%;
     right: 10%;
     width: 40%;
-    background-image: url("../assets/images/tinified/mypicture.jpg");
+    background-image: url("../assets/images/mypicture.jpg");
     background-position: right 50% top 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +40,6 @@
     z-index: -1;
     background-color: black;
 }
-
 
 /* Extra small devices (portrait phones, less than 576px), Medium devices (tablets, 768px and up) */
 @media (max-width: 991.98px) { 
